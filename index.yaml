@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  openai-codex:
+  - apiVersion: v2
+    appVersion: 0.98.0
+    created: "2026-05-08T06:47:51.193699054Z"
+    description: A Helm chart for running Codex CLI in Kubernetes with persistent
+      HOME storage
+    digest: 429e47c3f0f254f868c7a56572ac0f28344cfaf77fcfa6402f86ea382d876f53
+    home: https://github.com/openai/codex
+    keywords:
+    - codex
+    - openai
+    - ai
+    - cli
+    maintainers:
+    - name: Chris
+    name: openai-codex
+    sources:
+    - https://github.com/openai/codex
+    type: application
+    urls:
+    - https://github.com/zhouchengcom/openai-codex-helm/releases/download/openai-codex-0.2.0/openai-codex-0.2.0.tgz
+    version: 0.2.0
+generated: "2026-05-08T06:47:51.193706798Z"
