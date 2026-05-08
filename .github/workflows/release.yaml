@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-
+  workflow_dispatch:  # ← 添加这一行
 jobs:
   release:
     runs-on: ubuntu-latest
